@@ -411,8 +411,8 @@ public abstract class AbstractMojoTestCase
             PlexusConfiguration[] mojosChildren = mojos.getChildren( "mojo" );
             for ( PlexusConfiguration mojoConfig : mojosChildren )
             {
-                if ( mojoConfig.getChild( "build" ) != null
-                    && mojoConfig.getChild( "build" ).getValue().equalsIgnoreCase( mojo ) )
+                if ( mojoConfig.getChild( "goal" ) != null
+                    && mojoConfig.getChild( "goal" ).getValue().equalsIgnoreCase( mojo ) )
                 {
                     parameterConfigurations = mojoConfig.getChild( "configuration" );
                 }
