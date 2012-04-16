@@ -232,4 +232,22 @@ public class StubArtifactRepository
         return Collections.emptyList();
     }
 
+    public List<ArtifactRepository> getMirroredRepositories()
+    {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    public boolean isProjectAware()
+    {
+        // TODO Auto-generated method stub
+        return false;
+    }
+
+    public void setMirroredRepositories( List<ArtifactRepository> arg0 )
+    {
+        // TODO Auto-generated method stub
+        
+    }
+
 }
